@@ -17,13 +17,15 @@ Two separate experiences: a blind, timed **Actual dMAT Test** and an untimed **P
 
 ---
 
-## Quick start
+## Quick start (no technical knowledge needed)
 
-1. Download **[`dmat_master_practice.html`](dmat_master_practice.html)**.
-2. Double-click it (Chrome, Edge or Firefox). It needs no internet connection, installation or server.
-3. Choose **Actual dMAT Test** for a full timed simulation, or **Practice Mode** for untimed training.
+1. **[⬇ Download dMAT-Master-Practice.zip](https://github.com/krishna-ITTL/Dmat/raw/main/download/dMAT-Master-Practice.zip)** (about 4.5 MB).
+2. Unzip it: on Windows, right-click → **Extract All…**; on a Mac, double-click it.
+3. Open the extracted folder and double-click **`dmat_master_practice.html`**. It opens in Chrome or Edge, with nothing to install and no internet needed.
 
-Your results are stored in your browser (localStorage), so use the same browser each time to keep your practice history.
+📘 **Step-by-step guide with pictures and troubleshooting: [INSTALL.md](INSTALL.md)**
+
+Your results are stored in your browser, so always use the same browser and the same folder to keep your practice history.
 
 ---
 
@@ -125,7 +127,8 @@ Figures and grids are **cropped from the source PDFs, not redrawn**, and embedde
 
 ```
 dmat_master_practice.html   ← the app (open this)
-README.md
+download/                   ← ready-to-use ZIP (app + "HOW TO START" guide)
+README.md, INSTALL.md
 docs/images/                ← screenshots used in this README
 _build/                     ← pipeline that builds the app from the PDFs
   common.py                   source file paths
