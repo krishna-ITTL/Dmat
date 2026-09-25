@@ -17,6 +17,8 @@ Two separate experiences: a blind, timed **Actual dMAT Test** and an untimed **P
 
 ---
 
+### ▶ Live app: **https://krishna-ittl.github.io/dmat-practice/** (hosted from the public repo [dmat-practice](https://github.com/krishna-ITTL/dmat-practice))
+
 ## Quick start (no technical knowledge needed)
 
 1. **[⬇ Download dMAT-Master-Practice.zip](https://github.com/krishna-ITTL/Dmat/raw/main/download/dMAT-Master-Practice.zip)** (about 4.5 MB).
