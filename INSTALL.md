@@ -8,6 +8,8 @@ No technical knowledge needed. There is **nothing to install**: the app is a sin
 
 ## Step 1 – Download the ZIP file
 
+> This repository is private: you must be signed in to GitHub with an account the owner has invited, otherwise the link shows "404 – page not found".
+
 1. Click this link: **[⬇ Download dMAT-Master-Practice.zip](https://github.com/krishna-ITTL/Dmat/raw/main/download/dMAT-Master-Practice.zip)**
 2. Your browser downloads a file called **`dMAT-Master-Practice.zip`** (about 5 MB).
    - In Chrome, a small download icon appears at the top right; the file goes to your **Downloads** folder.

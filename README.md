@@ -127,7 +127,8 @@ Figures and grids are **cropped from the source PDFs, not redrawn**, and embedde
 
 ```
 dmat_master_practice.html   ← the app (open this)
-download/                   ← ready-to-use ZIP (app + "HOW TO START" guide)
+download/                   ← dMAT-Master-Practice.zip (app + "HOW TO START" guide)
+                              PREP-study-materials.zip (all source PDFs)
 README.md, INSTALL.md
 docs/images/                ← screenshots used in this README
 _build/                     ← pipeline that builds the app from the PDFs
@@ -141,12 +142,11 @@ _build/                     ← pipeline that builds the app from the PDFs
   app.html                    app template (HTML, CSS and vanilla JS)
   build.py                    inlines the question bank into the single HTML file
   test_app.js                 990 headless checks (timer engine, scoring, blind test, data integrity)
-Academic Module/, CORE MODULE/   source PDFs (not included – see below)
 ```
 
 ### Rebuild
 
-The source PDFs are **not included** in this repository because they are copyrighted by their owners. To rebuild, place your own copies in `Academic Module/` and `CORE MODULE/` using the file names listed in [`_build/common.py`](_build/common.py). The official g.a.s.t. preparation material is available from [d-mat.de](https://www.d-mat.de).
+The source PDFs are in **[`download/PREP-study-materials.zip`](download/PREP-study-materials.zip)** (private repository, copyrighted material, for personal study only). Extract it and copy its `Academic Module/` and `CORE MODULE/` folders next to `_build/`; the expected file names are listed in [`_build/common.py`](_build/common.py).
 
 Requires Python 3 with [PyMuPDF](https://pymupdf.readthedocs.io/) and Node.js.
 
@@ -161,4 +161,4 @@ node _build/test_app.js       # run all checks
 
 ## Disclaimer
 
-This is an unofficial, personal study tool. It is not affiliated with or endorsed by g.a.s.t., TestDaF-Institut or DAAD. **dMAT** and all official preparation material are © g.a.s.t., Bochum. Other preparation materials belong to their respective authors; the source PDFs are not redistributed here, and the app only embeds question crops for personal study. If you own content in this repository and want it removed, please open an issue.
+This is an unofficial, personal study tool. It is not affiliated with or endorsed by g.a.s.t., TestDaF-Institut or DAAD. **dMAT** and all official preparation material are © g.a.s.t., Bochum. Other preparation materials belong to their respective authors. This repository is private and the materials are kept here for personal study only – do not redistribute them. If you own content in this repository and want it removed, please open an issue.
