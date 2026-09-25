@@ -8,4 +8,5 @@ assert tpl.count('/*__BANK__*/null') == 1
 out = tpl.replace('/*__BANK__*/null', js)
 dst = os.path.join(os.path.dirname(H), 'dmat_master_practice.html')
 open(dst, 'w', encoding='utf-8').write(out)
+open(os.path.join(os.path.dirname(H), 'docs', 'index.html'), 'w', encoding='utf-8').write(out)  # GitHub Pages copy
 print('wrote', dst, round(os.path.getsize(dst) / 1e6, 2), 'MB')
