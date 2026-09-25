@@ -1,0 +1,11 @@
+# local tool settings
+.claude/
+__pycache__/
+*.pyc
+# generated (rebuild with python _build/assemble.py)
+_build/bank.json
+# source preparation PDFs: copyrighted by their owners, not redistributed in this public repo
+Academic Module/
+CORE MODULE/
+# local browser-tool state (contains a local token)
+.gstack/
